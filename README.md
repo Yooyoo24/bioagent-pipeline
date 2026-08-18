@@ -46,18 +46,18 @@ Synthesized Scientific Markdown
 
 ## 🚀 Quick Start
 
-## 1. Clone the Repository
+1. Clone the Repository
 ```bash
 git clone [https://github.com/Yooyoo24/bioagent-pipeline.git](https://github.com/Yooyoo24/bioagent-pipeline.git)
 cd bioagent-pipeline
-## 2. Set Up Virtual Environment & Dependencies
+2. Set Up Virtual Environment & Dependencies
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-## 3. Environment Variables Setup
+3. Environment Variables Setup
 Create a .env file in the root directory and append your DeepSeek API key:
 DEEPSEEK_API_KEY=your_deepseek_api_key_here
-## 4. Run Locally
+4. Run Locally
 CLI Agent Mode:
 python agent.py
 FastAPI Web Server:
