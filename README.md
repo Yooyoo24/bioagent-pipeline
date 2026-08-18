@@ -23,15 +23,17 @@ An end-to-end, multi-tool LLM Agent pipeline designed to automate biomedical dat
 ---
 
 ## 🏗️ System Architecture
+
+```text
 User Query ──► FastAPI (/api/v1/analyze) ──► BioAgent (ReAct Execution)
-│
-┌────────────────────────────────────────────┼────────────────────────────────────────────┐
-▼                                            ▼                                            ▼
+                                                     │
+        ┌────────────────────────────────────────────┼────────────────────────────────────────────┐
+        ▼                                            ▼                                            ▼
 [RCSB PDB Tool]                            [UniProt Sequence Tool]                      [PubMed Search Tool]
-│                                            │                                            │
-└────────────────────────────────────────────┼────────────────────────────────────────────┘
-▼
-Synthesized Scientific Markdown
+        │                                            │                                            │
+        └────────────────────────────────────────────┼────────────────────────────────────────────┘
+                                                     ▼
+                                     Synthesized Scientific Markdown
 ---
 
 ## 🛠️ Tech Stack
