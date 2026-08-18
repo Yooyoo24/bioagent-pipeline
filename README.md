@@ -6,7 +6,7 @@ An end-to-end, multi-tool LLM Agent pipeline designed to automate biomedical dat
 
 ## 🎬 Demo Preview
 
-![BioAgent Pipeline Demo](./bioagent-pipeline-demo.gif)
+![Demo](./bioagent-pipeline-demo.gif)
 
 ---
 
