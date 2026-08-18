@@ -34,6 +34,7 @@ User Query ──► FastAPI (/api/v1/analyze) ──► BioAgent (ReAct Executi
         └────────────────────────────────────────────┼────────────────────────────────────────────┘
                                                      ▼
                                      Synthesized Scientific Markdown
+
 ---
 
 ## 🛠️ Tech Stack
