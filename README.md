@@ -1,16 +1,16 @@
-# 🧬 BioAgent-Pipeline: Autonomous Biomedical Literature & Structure Analysis
+# BioAgent-Pipeline: Autonomous Biomedical Literature & Structure Analysis
 
 An end-to-end, multi-tool LLM Agent pipeline designed to automate biomedical data retrieval, structural analysis, and literature synthesis using DeepSeek API, LangChain, and FastAPI.
 
 ---
 
-## 🎬 Demo Preview
+## Demo Preview
 
 ![BioAgent Pipeline Demo](bioagent-pipeline-demo.gif)
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **Multi-Source Scientific Tools Integration**:
   - **RCSB PDB API**: Fetches structural metadata (experimental method, resolution, deposit dates).
@@ -22,7 +22,7 @@ An end-to-end, multi-tool LLM Agent pipeline designed to automate biomedical dat
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```text
 User Query ──► FastAPI (/api/v1/analyze) ──► BioAgent (ReAct Execution)
@@ -34,10 +34,11 @@ User Query ──► FastAPI (/api/v1/analyze) ──► BioAgent (ReAct Executi
         └────────────────────────────────────────────┼────────────────────────────────────────────┘
                                                      ▼
                                      Synthesized Scientific Markdown
+```
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Core LLM**: DeepSeek-V3 (`deepseek-chat`) / LangChain OpenAI
 - **Agent Framework**: LangChain / LangGraph (ReAct Pattern)
@@ -47,7 +48,7 @@ User Query ──► FastAPI (/api/v1/analyze) ──► BioAgent (ReAct Executi
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 1. Clone the Repository
 git clone [https://github.com/Yooyoo24/bioagent-pipeline.git](https://github.com/Yooyoo24/bioagent-pipeline.git)
@@ -69,5 +70,5 @@ FastAPI Web Server:
 uvicorn app:app --reload
 Visit http://127.0.0.1:8000/docs in your browser to test endpoints via Swagger UI.
 
-License
+## License
 Distributed under the MIT License.
